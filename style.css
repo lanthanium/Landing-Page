@@ -126,7 +126,8 @@ button{
     flex-direction:column;
     text-align:center;
     width: 12%;
-    height:auto;
+    max-width:12%;
+    height: auto;
     font-size: 18px;
     color: #535455;
     font-weight:550;

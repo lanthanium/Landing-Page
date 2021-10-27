@@ -21,6 +21,7 @@ body {
 .top{
     display:flex;
     justify-content: space-around;
+    
     gap:500px;
     padding-top: 20px;
 }
@@ -30,6 +31,11 @@ body {
     font-size:24px;
     font-weight: bold;
     font-family: 'Arial', 'Verdana', 'Helvetica';
+}
+
+.pusheen{
+    height: 60px;
+    width: auto;
 }
 
 .hlinks{
@@ -73,7 +79,10 @@ body {
 button{
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    padding: 8px 30px 8px 30px;  
+    border-radius:10px;
+    border-color: #3882f6;
 }
 
 .mainpic{
@@ -102,12 +111,11 @@ button{
 }
 
 .pic{
-    width: 175px;
-    border-radius: 25px;
+
+    border-radius: 15px;
     background: #3882f6;
     padding: 5px;
-    width: 175px;
-    height: auto;
+
 }
 
 .bottombody1{
@@ -123,4 +131,82 @@ button{
     font-size: 18px;
     color: #535455;
     font-weight:550;
+    
+}
+/* ======================================================================= */
+
+/*Third section
+==============================================================================*/
+.body2{
+    display:flex;
+    flex-direction:column;
+    background-color: #e5e7eb;
+    padding: 75px 75px 75px 50px;
+    
+}
+
+.quote{
+    text-align:center;
+    font-size: 36px;
+    color: #1f2937;
+    font-style:italic;
+    font-weight:100;
+}
+
+.author{
+    text-align:end;
+    color: #1f2937;
+    font-size:24px;
+    font-weight: 800;
+}
+
+/* ===========================================================================*/
+
+/*Fourth section
+==============================================================================*/
+.body3{
+    display:flex;
+    justify-content: center;
+}
+
+.ad{
+    margin: 100px;
+    display:flex;
+    background-color:#3882f6;
+    width:1000px;
+    height: 125px;
+    justify-content: space-around;
+    align-items: center;
+    color:#f9faf8;
+    border-radius: 10px;
+    background: #3882f6;
+    padding: 5px;
+    
+}
+
+.actionheader{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.actionquote{
+    color:#f9faf8a2
+}
+
+.buttonaction{
+    border-width:3px;
+    border-color:white;
+    
+}
+
+/* ===========================================================================*/
+
+/*Footer section
+==============================================================================*/
+.footer{
+    background-color: #1f2937;
+    color: rgba(255, 255, 255, 0.726);
+    font-size:18px;
+    text-align:center;
+    padding: 30px;
 }

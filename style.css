@@ -127,7 +127,7 @@ button{
     text-align:center;
     width: 12%;
     max-width:12%;
-    height: auto;
+    max-height:12%;
     font-size: 18px;
     color: #535455;
     font-weight:550;

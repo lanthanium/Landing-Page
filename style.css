@@ -42,6 +42,7 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     font-family: 'Arial', 'Verdana', 'Helvetica';
+    
 }
 
 .bottomh{
@@ -81,6 +82,7 @@ button{
     border-radius:10px;
     border-width: 3px;
     border-color: #3882f6;
+    cursor:pointer;
 }
 
 .mainpic{
